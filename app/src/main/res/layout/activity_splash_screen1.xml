@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ScreenSplash.SplashScreen1">
+    <ImageView
+        android:id="@+id/imageViewDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/img" />
+    <TextView
+        android:id="@+id/textViewQuality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewDog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Chất Lượng"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewQuality"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:textSize="18dp"
+        android:layout_marginTop="8dp"
+        android:text="Chúng tôi cung cấp những sản phẩm tốt nhất, đáp ứng mọi yêu cầu của sản phẩm cho pet yêu của bạn với những ưu đãi tốt nhất." />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Tiếp tục"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Bỏ qua"
+        android:background="@android:color/transparent"
+
+        android:textColor="@color/black" />
+
+</RelativeLayout>

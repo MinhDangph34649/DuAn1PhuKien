@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ScreenSplash.SplashScreen2">
+    <ImageView
+        android:id="@+id/imageViewDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/img" />
+    <TextView
+        android:id="@+id/textViewQuality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewDog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="An Toàn"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewQuality"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:textSize="18dp"
+        android:layout_marginTop="8dp"
+        android:text="Chúng tôi đảm bảo an toàn cho mọi giao dịch sản phẩm và bảo mật thông tin khách hàng.  " />
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Tiếp tục"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white" />
+
+
+
+</RelativeLayout>
