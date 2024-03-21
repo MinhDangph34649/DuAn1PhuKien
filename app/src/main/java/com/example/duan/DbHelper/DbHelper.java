@@ -58,6 +58,8 @@ public class DbHelper extends SQLiteOpenHelper {
         insertUser(db, "us1234.kh", "customerpassword", "kh");
     }
 
+
+    
     private void insertUser(SQLiteDatabase db, String username, String password, String type) {
         ContentValues values = new ContentValues();
         values.put(COLUMN_USERNAME, username);

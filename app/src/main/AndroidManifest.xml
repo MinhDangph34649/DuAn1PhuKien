@@ -25,7 +25,7 @@
             android:name=".ScreenSplash.SplashScreen1"
             android:exported="false" />
         <activity
-            android:name=".Screen.manage"
+            android:name=".ScreenSplash.SplashScreen"
             android:exported="true" />
         <activity
             android:name=".Screen.constumer"
@@ -37,7 +37,7 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".ScreenSplash.SplashScreen"
+            android:name=".Screen.manage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
